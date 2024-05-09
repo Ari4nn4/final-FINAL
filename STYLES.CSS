@@ -1,0 +1,86 @@
+
+header{
+    background-color: rgb(19, 19, 148);
+    text-align:center;
+    margin-top:2px;
+    color:ghostwhite;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style:normal;}
+  h1{
+    color:rgb(0, 0, 0);
+    align-items:center;
+    background-color:rgb(19, 19, 148);
+    color:ghostwhite;
+  }
+  .img{
+    justify-content: center;
+    text-align: center;
+    align-items:center;
+  }
+  .img2{
+  align-items:center;
+  align-content:center;
+  }
+  body{
+    background-color:rgb(255, 255, 255);
+    line-height:center;
+    font: 1em sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:center;
+    accent-color:inherit;
+  }
+  P{
+    color:rgb(255, 255, 255);
+    background-color:black;
+    text-align:center;
+    padding-left:50px;
+    padding-right:50px;
+  }
+  
+  .flexdaddy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  nav{
+    background-color: rgb(19, 19, 148);
+    justify-content:space-around;
+    align-items: center;
+    font-size: medium;
+  }
+  p,h1,h2.h3 {
+    margin:0;
+    padding:0px;
+  
+  }
+  a{
+    color:ghostwhite;
+    align-items: center;
+    justify-content: space-between;}
+    .img{
+     animation: img2 6s;
+    }
+  @keyframes img2{
+    0%{opacity:0%;}
+  }
+ #pot {
+   bottom: 15%;
+   display: block;
+   position: absolute;
+   animation: linear infinite alternate;
+   animation-name: run;
+   animation-duration: 2s;
+ }
+ 
+ @keyframes run {
+     0% {
+       left: 0;
+       transform: translateX(0);
+     }
+     100% {
+       left: 100%;
+       transform: translateX(-100%);
+     }
+ }
