@@ -18,6 +18,7 @@ header{
     justify-content: center;
     text-align: center;
     align-items:center;
+    animation: moveleft 3s forwards;
   }
   .img2{
   align-items:center;
@@ -34,7 +35,7 @@ header{
   P{
     color:rgb(255, 255, 255);
     background-color:black;
-    text-align:center;
+    text-align:flex-start;
     padding-left:50px;
     padding-right:50px;
   }
@@ -65,22 +66,5 @@ header{
   @keyframes img2{
     0%{opacity:0%;}
   }
- #pot {
-   bottom: 15%;
-   display: block;
-   position: absolute;
-   animation: linear infinite alternate;
-   animation-name: run;
-   animation-duration: 2s;
- }
  
- @keyframes run {
-     0% {
-       left: 0;
-       transform: translateX(0);
-     }
-     100% {
-       left: 100%;
-       transform: translateX(-100%);
-     }
- }
+  
