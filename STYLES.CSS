@@ -4,15 +4,13 @@ header{
     text-align:center;
     margin-top:2px;
     color:ghostwhite;
-<<<<<<< HEAD
     font-family: "Big Shoulders Display", sans-serif;
     font-optical-sizing: auto;
     font-weight: weight;
-=======
+
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
->>>>>>> 001fef2a71c8744b1d1967bbe9ed0ed44ecec2ff
     font-style: normal;}
   h1{
     display: flex;
@@ -35,7 +33,6 @@ header{
   body{
     background-color:rgb(0, 0, 0);
     line-height:center;
-<<<<<<< HEAD
     font: 1em sans-serif;
     font-style: normal;
     text-align:center;
@@ -44,14 +41,6 @@ header{
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
-=======
-    text-align:center;
-    accent-color:inherit;
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;;
->>>>>>> 001fef2a71c8744b1d1967bbe9ed0ed44ecec2ff
   }
   h3{
     color:white;
@@ -64,7 +53,7 @@ header{
   p{
     display:flex;
     color:rgb(255, 255, 255);
-    background-color:rgb(255, 255, 255);
+    background-color:rgb(0, 0, 0);
     text-align:flex-start;
     padding-left:50px;
     padding-right:50px;
@@ -73,7 +62,6 @@ header{
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
-
   }
   
   .flexdaddy {
@@ -88,19 +76,6 @@ header{
     align-items: center;
     font-size: large;
   }
-<<<<<<< HEAD
-  p,h1,h2.h3 {
-  margin:0;
-  padding:0px;
-  background-color: black;
-  font-size:50px;
-  font-family: 'Times New Roman', Times, serif;
-  }
-  a{
-  color:ghostwhite;
-  align-items: center;
-  justify-content: space-between;}
-=======
   h3 {
     font-size:large;
     color:white;
@@ -126,7 +101,6 @@ header{
     align-items: center;
     justify-content: space-between;}
 
->>>>>>> 001fef2a71c8744b1d1967bbe9ed0ed44ecec2ff
     .img{
      animation: img2 6s;
     }
