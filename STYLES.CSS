@@ -19,6 +19,18 @@ header{
     background-color:rgb(19, 19, 148);
     color:ghostwhite;
   }
+  h2{
+    display: flex;
+    color:ghostwhite;
+    font-family: "Big Shoulders Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
   .img{
     justify-content: center;
     text-align: center;
@@ -45,6 +57,10 @@ header{
   h3{
     color:white;
     background-color: black;
+    color:ghostwhite;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
   }
   h2{
     color:white;
@@ -79,7 +95,12 @@ header{
   h3 {
     font-size:large;
     color:white;
-    background-color: #131394;
+    background-color: #000000;
+    color:ghostwhite;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+
   }
   a{
     color:white;
