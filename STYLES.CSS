@@ -71,6 +71,8 @@ header{
     color:rgb(255, 255, 255);
     background-color:rgb(0, 0, 0);
     text-align:flex-start;
+    border-left:50px;
+    border-right: 50px;
     padding-left:50px;
     padding-right:50px;
     font-size: 25px;
@@ -113,7 +115,7 @@ header{
     align-items:flex-end; 
     padding:20px; 
     border-style:soild; 
-      font-size:large;
+    font-size:large;
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
