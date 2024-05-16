@@ -1,133 +1,175 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
-header{
-    background-color: rgb(19, 19, 148);
-    text-align:center;
-    margin-top:2px;
-    color:ghostwhite;
-    font-family: "Big Shoulders Display", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
 
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;}
-  h1{
-    display: flex;
-    color:rgb(0, 0, 0);
-    align-items:center;
-    background-color:rgb(19, 19, 148);
-    color:ghostwhite;
-  }
-  h2{
-    display: flex;
-    color:ghostwhite;
-    font-family: "Big Shoulders Display", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
+* {
+  box-sizing: border-box;
+}
 
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-  }
-  .img{
-    justify-content: center;
-    text-align: center;
-    align-items:center;
-    animation: moveleft 3s forwards;
-  }
-  .img2{
-  align-items:center;
-  align-content:center;
-  animation:moveleft 5s backwards;
-  }
-  body{
-    background-color:rgb(0, 0, 0);
-    line-height:center;
-    font: 1em sans-serif;
-    font-style: normal;
-    text-align:center;
-    accent-color:inherit;
-    font-family: "Big Shoulders Display", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-  }
-  h3{
-    color:white;
-    background-color: black;
-    color:ghostwhite;
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-  }
-  h2{
-    color:white;
-    background-color: black;
-  }
-  p{
-    display:flex;
-    color:rgb(255, 255, 255);
-    background-color:rgb(0, 0, 0);
-    text-align:flex-start;
-    border-left:50px;
-    border-right: 50px;
-    padding-left:50px;
-    padding-right:50px;
-    font-size: 25px;
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-  .flexdaddy {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  nav{
-    background-color: #131394;
-    display: flex;
-    justify-content:space-around;
-    align-items: center;
-    font-size: large;
-  }
-  h3 {
-    font-size:large;
-    color:white;
-    background-color: #000000;
-    color:ghostwhite;
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
+body {
+  margin: 1em;
+}
 
-  }
-  a{
-    color:white;
-    BACKGROUND-COLOR:#131394;
-    MARGIN:20PX;
-    width:20em;
-    border-radius: 20px;
-    display:column;
-    justify-content:center;
-    align-items:flex-end; 
-    padding:20px; 
-    border-style:soild; 
-    font-size:large;
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-    color:ghostwhite;
-    align-items: center;
-    justify-content: space-between;}
+header {
+  background-color: rgb(19, 19, 148);
+  text-align: center;
+  margin-top: 2px;
+  color: ghostwhite;
+  font-family: "Big Shoulders Display", sans-serif;
+  /* font-optical-sizing: auto; */
+  /* font-weight: weight; */
+  font-family: "Oswald", sans-serif;
+  /* font-optical-sizing: auto; */
+  font-weight: 300;
+  font-style: normal;
+  border-radius: 25px;
+}
 
-    .img{
-     animation: img2 6s;
-    }
-  @keyframes img2{
-    0%{opacity:0%;}
+h1 {
+  display: flex;
+  color: rgb(0, 0, 0);
+  align-items: center;
+  background-color: rgb(19, 19, 148);
+  color: ghostwhite;
+}
+
+h2 {
+  display: flex;
+  color: ghostwhite;
+  font-family: "Big Shoulders Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.img {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  animation: moveleft 3s forwards;
+}
+
+.img2 {
+  align-items: center;
+  align-content: center;
+  animation: moveleft 5s backwards;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  line-height: center;
+  font: 1em sans-serif;
+  font-style: normal;
+  text-align: center;
+  accent-color: inherit;
+  font-family: "Big Shoulders Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  text-shadow: 2px 2px #131394;
+}
+
+h3 {
+
+  background-color: black;
+  color: ghostwhite;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+}
+
+h2 {
+  color: white;
+  background-color: black;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  text-align: flex-start;
+  border-left: 50px;
+  border-right: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 25px;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: -50px;
+  padding: 0;
+  text-shadow: 2px 2px #131394;
+}
+
+.flexdaddy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  background-color: #131394;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 25px;
+  font-size: medium;
+}
+
+h3 {
+  font-size: large;
+  background-color: #000000;
+  color: ghostwhite;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+
+}
+
+nav a {
+  background-color: #131394;
+  margin: 20PX;
+  width: 20em;
+  border-radius: 20px;
+  display: block;
+  padding: 20px;
+  font-size: large;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  color: ghostwhite;
+}
+
+.img {
+  animation: img2 6s;
+}
+
+@keyframes img2 {
+  0% {
+    opacity: 0%;
   }
-  
+}
+
+.content {
+  width: 60vw;
+  margin: 0 auto;
+}
+
+.content img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.footer {
+  margin-top: 5em;
+}
