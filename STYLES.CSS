@@ -173,3 +173,6 @@ nav a {
 .footer {
   margin-top: 5em;
 }
+.afs {
+  z-index: 1;
+}
